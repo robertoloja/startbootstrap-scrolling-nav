@@ -9,13 +9,16 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SmartHive</title>
+    <title>Roberto Loja</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/scrolling-nav.css" rel="stylesheet">
+
+    <!-- My CSS -->
+    <link href="css/tooltips.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -83,18 +86,172 @@
         </div>
     </section>
 
-    <!-- About Section -->
+
+    <!-- SmartHive Section (a.k.a. "about section")-->
     <section id="about" class="about-section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <h1>SmartHive</h1>
-                    <ul>
-                        <li>
-                            Can be seen in action 
-                            <a href="/smarthive/">here</a>.
-                        </li>
-                    </ul>
+
+                    <!-- Start Diagram SVG -->
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="743px" height="261px" version="1.1" style="background-color: #eee">
+                      <defs/>
+                      <g transform="translate(0.5,0.5)">
+                        <path d="M 80 -80 L 330 -80 L 340 -70 L 340 340 L 90 340 L 80 330 L 80 -80 Z" fill="#ffffff" stroke="#000000" stroke-miterlimit="10" transform="rotate(90,210,130)" pointer-events="none"/>
+                        <path d="M 90 340 L 90 -70 L 80 -80 M 90 -70 L 340 -70" fill="none" stroke="#000000" stroke-miterlimit="10" transform="rotate(90,210,130)" pointer-events="none"/>
+                        <g transform="translate(4.5,15.5)">
+                          <switch>
+                            <foreignObject style="overflow:visible;" pointer-events="all" width="73" height="12" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                              <div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Verdana; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; white-space: nowrap; text-decoration: underline;">
+                                <div xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">Raspberry Pi</div>
+                              </div>
+                            </foreignObject>
+                            <text x="37" y="12" fill="#000000" text-anchor="middle" font-size="12px" font-family="Verdana" text-decoration="underline">Raspberry Pi</text>
+                          </switch>
+                        </g>
+                        <path d="M 70 72 L 70 175 L 133.63 175" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+                        <path d="M 138.88 175 L 131.88 178.5 L 133.63 175 L 131.88 171.5 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+                        <rect x="10" y="42" width="120" height="30" rx="4.5" ry="4.5" fill="#ffffff" stroke="#000000" pointer-events="none"/>
+                        <g transform="translate(32.5,50.5)">
+                          <switch>
+                            <foreignObject style="overflow:visible;" pointer-events="all" width="74" height="12" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                              <div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 75px; white-space: nowrap; word-wrap: normal; text-align: center;">
+                                  <div xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;"><a href="https://gist.github.com/robertoloja/317e7d1c8ef49b6d5e510e3c1082518a#file-population-py" title="A continuously running python script which updates the local mongodb periodically.">population.py</a></div>
+                              </div>
+                            </foreignObject>
+                            <text x="37" y="12" fill="#000000" text-anchor="middle" font-size="12px" font-family="Helvetica">population.py</text>
+                          </switch>
+                        </g>
+                        <path d="M 211 72 L 211 92 L 211 88 L 211 101.63" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+                        <path d="M 211 106.88 L 207.5 99.88 L 211 101.63 L 214.5 99.88 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+                        <rect x="151" y="42" width="120" height="30" rx="4.5" ry="4.5" fill="#ffffff" stroke="#000000" pointer-events="none"/>
+                        <g transform="translate(169.5,50.5)">
+                          <switch>
+                            <foreignObject style="overflow:visible;" pointer-events="all" width="82" height="12" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                              <div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 83px; white-space: nowrap; word-wrap: normal; text-align: center;">
+                                <div xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">temperature.py</div>
+                              </div>
+                            </foreignObject>
+                            <text x="41" y="12" fill="#000000" text-anchor="middle" font-size="12px" font-family="Helvetica">temperature.py</text>
+                          </switch>
+                        </g>
+                        <path d="M 344 72 L 344 123 L 288.37 123" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+                        <path d="M 283.12 123 L 290.12 119.5 L 288.37 123 L 290.12 126.5 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+                        <rect x="284" y="42" width="120" height="30" rx="4.5" ry="4.5" fill="#ffffff" stroke="#000000" pointer-events="none"/>
+                        <g transform="translate(317.5,50.5)">
+                          <switch>
+                            <foreignObject style="overflow:visible;" pointer-events="all" width="52" height="12" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                              <div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 53px; white-space: nowrap; word-wrap: normal; text-align: center;">
+                                <div xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">weight.py</div>
+                              </div>
+                            </foreignObject>
+                            <text x="26" y="12" fill="#000000" text-anchor="middle" font-size="12px" font-family="Helvetica">weight.py</text>
+                          </switch>
+                        </g>
+                        <path d="M 282 230 L 443.63 230" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+                        <path d="M 448.88 230 L 441.88 233.5 L 443.63 230 L 441.88 226.5 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+                        <rect x="140" y="210" width="142" height="40" fill="#ffffff" stroke="#000000" pointer-events="none"/>
+                        <g transform="translate(170.5,223.5)">
+                          <switch>
+                            <foreignObject style="overflow:visible;" pointer-events="all" width="81" height="12" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                              <div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 82px; white-space: nowrap; word-wrap: normal; text-align: center;">
+                                  <div xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;"><a href="https://github.com/robertoloja/SmartHive-RPi/blob/master/server.js">Node.js Server</a></div>
+                              </div>
+                            </foreignObject>
+                            <text x="41" y="12" fill="#000000" text-anchor="middle" font-size="12px" font-family="Helvetica">Node.js Server</text>
+                          </switch>
+                        </g>
+                        <path d="M 213 190 L 213 190 L 213 210 M 209 210 L 209 190 L 209 190 M 209 210" fill="none" stroke="#000000" stroke-miterlimit="1.42" pointer-events="none"/>
+                        <rect x="140" y="160" width="142" height="30" fill="#ffffff" stroke="#000000" pointer-events="none"/>
+                        <g transform="translate(183.5,168.5)">
+                          <switch>
+                            <foreignObject style="overflow:visible;" pointer-events="all" width="55" height="12" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                              <div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 56px; white-space: nowrap; word-wrap: normal; text-align: center;">
+                                <div xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">MongoDB</div>
+                              </div>
+                            </foreignObject>
+                            <text x="28" y="12" fill="#000000" text-anchor="middle" font-size="12px" font-family="Helvetica">MongoDB</text>
+                          </switch>
+                        </g>
+                        <path d="M 213 138 L 213 140 L 213 160 M 209 160 L 209 140 L 209 138 M 209 160" fill="none" stroke="#000000" stroke-miterlimit="1.42" pointer-events="none"/>
+                        <rect x="140" y="108" width="142" height="30" fill="#ffffff" stroke="#000000" pointer-events="none"/>
+                        <g transform="translate(162.5,116.5)">
+                          <switch>
+                            <foreignObject style="overflow:visible;" pointer-events="all" width="96" height="12" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                              <div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 96px; white-space: nowrap; word-wrap: normal; text-align: center;">
+                                  <div xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;"><a href="https://gist.github.com/robertoloja/ee8af09fad1b8824848b7c49f13bf13a#file-worker_runner-py">worker_runner.py</a></div>
+                              </div>
+                            </foreignObject>
+                            <text x="48" y="12" fill="#000000" text-anchor="middle" font-size="12px" font-family="Helvetica">worker_runner.py</text>
+                          </switch>
+                        </g>
+                        <path d="M 596 75 L 596 53 L 601 53 L 601 61 M 597 61 L 597 57 L 600 57 L 600 75 M 597 61" fill="none" stroke="#000000" stroke-miterlimit="1.42" pointer-events="none"/>
+                        <path d="M 547.5 -19.5 L 637.5 -19.5 L 647.5 -9.5 L 647.5 269.5 L 557.5 269.5 L 547.5 259.5 L 547.5 -19.5 Z" fill="#ffffff" stroke="#000000" stroke-miterlimit="10" transform="rotate(90,597.5,125)" pointer-events="none"/>
+                        <path d="M 557.5 269.5 L 557.5 -9.5 L 547.5 -19.5 M 557.5 -9.5 L 647.5 -9.5" fill="none" stroke="#000000" stroke-miterlimit="10" transform="rotate(90,597.5,125)" pointer-events="none"/>
+                        <g transform="translate(457.5,90.5)">
+                          <switch>
+                            <foreignObject style="overflow:visible;" pointer-events="all" width="49" height="12" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                              <div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Verdana; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; white-space: nowrap; text-decoration: underline;">
+                                <div xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">Firebase</div>
+                              </div>
+                            </foreignObject>
+                            <text x="25" y="12" fill="#000000" text-anchor="middle" font-size="12px" font-family="Verdana" text-decoration="underline">Firebase</text>
+                          </switch>
+                        </g>
+                        <rect x="464" y="113" width="120" height="50" rx="7.5" ry="7.5" fill="#ffffff" stroke="#000000" pointer-events="none"/>
+                        <g transform="translate(493.5,131.5)">
+                          <switch>
+                            <foreignObject style="overflow:visible;" pointer-events="all" width="60" height="12" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                              <div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 61px; white-space: nowrap; word-wrap: normal; text-align: center;">
+                                <div xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">NoSQL DB</div>
+                              </div>
+                            </foreignObject>
+                            <text x="30" y="12" fill="#000000" text-anchor="middle" font-size="12px" font-family="Helvetica">NoSQL DB</text>
+                          </switch>
+                        </g>
+                        <path d="M 600 140 L 604 140 L 584 140 M 584 136 L 604 136 L 600 136 M 584 136" fill="none" stroke="#000000" stroke-miterlimit="1.42" pointer-events="none"/>
+                        <rect x="600" y="113" width="120" height="50" rx="7.5" ry="7.5" fill="#ffffff" stroke="#000000" pointer-events="none"/>
+                        <g transform="translate(639.5,131.5)">
+                          <switch>
+                            <foreignObject style="overflow:visible;" pointer-events="all" width="41" height="12" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                              <div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 42px; white-space: nowrap; word-wrap: normal; text-align: center;">
+                                <div xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">OAuth2</div>
+                              </div>
+                            </foreignObject>
+                            <text x="21" y="12" fill="#000000" text-anchor="middle" font-size="12px" font-family="Helvetica">OAuth2</text>
+                          </switch>
+                        </g>
+                        <path d="M 568 -111 L 619 -111 L 629 -101 L 629 172 L 578 172 L 568 162 L 568 -111 Z" fill="#ffffff" stroke="#000000" stroke-miterlimit="10" transform="rotate(90,598.5,30.5)" pointer-events="none"/>
+                        <path d="M 578 172 L 578 -101 L 568 -111 M 578 -101 L 629 -101" fill="none" stroke="#000000" stroke-miterlimit="10" transform="rotate(90,598.5,30.5)" pointer-events="none"/>
+                        <g transform="translate(461.5,15.5)">
+                          <switch>
+                            <foreignObject style="overflow:visible;" pointer-events="all" width="71" height="12" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                              <div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Verdana; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; white-space: nowrap; text-decoration: underline;">
+                                  <div xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;"><a href="https://github.com/pwestman/SmartHive">Android App</a></div>
+                              </div>
+                            </foreignObject>
+                            <text x="36" y="12" fill="#000000" text-anchor="middle" font-size="12px" font-family="Verdana" text-decoration="underline">Android App</text>
+                          </switch>
+                        </g>
+                        <path d="M 282 230 L 370 230 L 370 138 L 457.63 138" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+                        <path d="M 462.88 138 L 455.88 141.5 L 457.63 138 L 455.88 134.5 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+                        <rect x="450" y="200" width="290" height="60" fill="#ffffff" stroke="#000000" pointer-events="none"/>
+                        <rect x="452" y="202" width="286" height="56" fill="#ffffff" stroke="#000000" pointer-events="none"/>
+                        <g transform="translate(490.5,223.5)">
+                          <switch>
+                            <foreignObject style="overflow:visible;" pointer-events="all" width="208" height="12" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                              <div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 208px; white-space: nowrap; word-wrap: normal; text-align: center;">
+                                  <div xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;"><a href="/smarthive">Local Network Web Data Visualization</a></div>
+                              </div>
+                            </foreignObject>
+                            <text x="104" y="12" fill="#000000" text-anchor="middle" font-size="12px" font-family="Helvetica">Local Network Web Data Visualization</text>
+                          </switch>
+                        </g>
+                      </g>
+                    </svg>
+
+                    <!-- End diagram SVG -->
 
                 </div>
             </div>
