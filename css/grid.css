@@ -1,15 +1,17 @@
-.wrapper {
+.android-container {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.panel {
-    background-color: red;
+.flex-text {
+    align-self: center;
+    flex: 0 0 300px;
 }
 
-.tall-panel {
+.android-image {
 }
 
-.header {
-    flex-basis: 100%;
+#app {
+    width: 90%;
 }
