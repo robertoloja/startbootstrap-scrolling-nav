@@ -7,19 +7,15 @@
 .flex-text {
     text-align: left;
     align-self: center;
-    flex: 0 0 300px;
+    flex: 0 1 300px;
 }
 
 #app {
     width: 50%;
 }
 
-.cad {
-    flex: 0 1 auto;
-}
-
 #cad {
-    width: 100%;
+    width: 50%;
 }
 
 .diagram {
