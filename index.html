@@ -8,7 +8,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-
     <title>Roberto Loja</title>
 
     <!-- Bootstrap Core CSS -->
@@ -18,15 +17,9 @@
     <link href="css/scrolling-nav.css" rel="stylesheet">
 
     <!-- My CSS -->
-    <link href="css/tooltips.css" rel="stylesheet">
+    <link href="css/grid.css" rel="stylesheet">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+    <SCRIPT src="/functions.js"></SCRIPT>
 </head>
 
 <!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
@@ -94,14 +87,19 @@
                 <div class="col-lg-12">
                     <h1>SmartHive</h1>
 
-                    <p>An internet connected beehive, whose key metrics can be
-                    remotely monitored using an Android app.</p>
 
-                    <table width="100%">
-                        <tr>
-                            <td>
+                    <div class="wrapper">
+                      <header class="header" style="text-align: left;">This was an internet connected bee hive, whose key metrics could be monitored remotely.</header>
+                      <div class="panel tall-panel"><img id="android-image" src="HiveInfo.png" width="100%" onmouseover="changeImage()"></div>
+                      <div class="panel wide-panel-left">
+                                <p>I designed an assembly for the SmartHive prototype which would,
+                                for the purposes of testing, accurately simulate the conditions
+                                of a Langstroth hive.</p>
+                                <p>The casing was laser cut out of acryllic and assembled using
+                                acryllic cement.</p>
+                      </div>
+                      <!-- div class="panel">
 
-                    <!-- Start Diagram SVG -->
                     <svg viewBox="0 0 743 261" version="1.1" style="background-color: #eee">
                       <defs/>
                       <g transform="translate(0.5,0.5)">
@@ -257,21 +255,10 @@
                         </g>
                       </g>
                     </svg>
-                    <!-- End diagram SVG -->
 
-
-                                <small>Clicking on the blue text will take you to the source code of that module.</small>
-
-                            </td>
-                            <td width="40%">
-                                foo?
-                            </td>
-                        </tr>
-                    </table>
-
-                    <p>Some text after the table</p>
-
-
+                      </div -->
+                      
+                    </div>
                 </div>
             </div>
         </div>

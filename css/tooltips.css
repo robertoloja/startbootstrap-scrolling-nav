@@ -1,0 +1,58 @@
+.wrapper {
+  max-width: 940px;
+  margin: 0 20px;
+  display: grid;
+  grid-gap: 10px;
+}
+
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wrapper {
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 4fr));
+  background-color: red;
+}
+
+.panel {
+  /* needed for the flex layout*/
+  margin-left: 5px;
+  margin-right: 5px;
+  flex: 1 1 200px;
+}
+
+.tall-panel {
+  grid-row-end: span 2;
+}
+
+.wide-panel-left {
+  grid-coloumn-end: -1;
+}
+
+.header,
+.footer {
+  margin-left: 5px;
+  margin-right: 5px;
+  flex: 0 1 100%;
+  grid-column: 1 / -1;
+}
+
+.wrapper > * {
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 10px;
+  background-color: #eee;
+}
+
+
+/* We need to set the margin used on flex items to 0 as we have gaps in grid.  */
+
+@supports (display: grid) {
+  .wrapper > * {
+    margin: 0;
+  }
+}
