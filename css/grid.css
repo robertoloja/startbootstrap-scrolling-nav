@@ -1,0 +1,15 @@
+.wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.panel {
+    background-color: red;
+}
+
+.tall-panel {
+}
+
+.header {
+    flex-basis: 100%;
+}
