@@ -85,35 +85,50 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1>SmartHive</h1>
-                    <p style="text-align: left;">fooThis project aimed to build a prototype IoT beehive, 
-                       whose key metrics (temperature, weight, population, 
-                       humidity) could be monitored remotely.</p>
+                    <h1><a href="/smarthive">SmartHive</a></h1>
+                    <div class="header-container">
+                        <p class="header">This project aimed to build a prototype IoT beehive, 
+                           whose key metrics (temperature, weight, population, 
+                           humidity) could be monitored remotely.</p>
+                    </div>
 
                     <div class="flex-container">
                         <div class="cad"><img id="cad" src="housing-render.png"></div>
                         <div class="flex-text">
                             <p>
-                            I designed a base for the hive, which would also
-                            hold the Raspberry Pi, weight sensors, and support
-                            circuits. foo
+                                I designed a base for the hive, which would also
+                                hold the Raspberry Pi, weight sensors, and support
+                                circuits.
+                            </p>
+                            <p>
+                                The base and hive were laser-cut out of acryllic
+                                and assembled with integrated population counters,
+                                temperature and humidity sensors.
                             </p>
                         </div>
                     </div>
 
                     <div class="flex-container">
                         <div class="flex-text">
-                            <p>I designed an assembly for the SmartHive prototype which would,
-                            for the purposes of testing, accurately simulate the conditions
-                            of a Langstroth hive.</p>
+                            <p>
+                                An <a href="https://github.com/pwestman/SmartHive">Android app</a> was designed for remotely monitoring 
+                                multiple hives.
+                            </p>
                         </div>
-                        <div class="android-image"><img id="app" src="HiveInfo.png" onmouseover="changeImage()"></div>
+                        <div class="android-image"><img id="app" src="HiveInfo.png" onclick="changeImage()"></div>
                     </div>
 
-                    <div class="flex-container">
+                    <br><br>
 
-                        <div>
-                            <svg viewBox="0 0 743 261" version="1.1" style="background-color: #eee">
+                    <div class="header-container">
+                        <p class="header">
+                            Clicking on any blue text in this system diagram will
+                            take you to its corresponding repository.
+                        </p>
+                    </div>
+
+                        <div class="svg-diagram">
+                            <svg viewBox="0 0 743 261" version="1.1" style="background-color: #eee" id="svg-diagram">
                             <defs/>
                                 <g transform="translate(0.5,0.5)">
                                     <path d="M 80 -80 L 330 -80 L 340 -70 L 340 340 L 90 340 L 80 330 L 80 -80 Z" fill="#ffffff" stroke="#000000" stroke-miterlimit="10" transform="rotate(90,210,130)" pointer-events="none"/>
@@ -268,12 +283,8 @@
                                     </g>
                                 </g>
                             </svg>
-                        </div>
-                        <div class="flex-text">
-                            <p>Some stuff about the diagram</p>
-                        </div>
-
                     </div>
+                    <br><br>
                 </div>
             </div>
         </div>
@@ -285,7 +296,8 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h1>Book Inventory</h1>
-                    Can be see in action <a href="/bookinventory/">here</a>.
+                    <p>A Django application for cataloguing a personal library.</p>
+                    <p>Can be see in action <a href="/bookinventory/">here</a>.</p>
                 </div>
             </div>
         </div>

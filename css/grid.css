@@ -2,28 +2,51 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin: auto;
 }
 
 .flex-text {
-    text-align: left;
+    text-align: justify;
     align-self: center;
     flex: 0 1 300px;
 }
 
 #app {
     width: 50%;
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.3);
+	-moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.3);
+	box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.3);
+    cursor: pointer;
 }
 
 #cad {
-    width: 50%;
+    width: 70%;
 }
 
-.diagram {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+.cad {
+    flex: 0 1 57.5%;
 }
 
-svg {
-    width: 100%;
+#svg-diagram {
+    width: 80%;
+}
+
+.diagram-text {
+    flex: 0 1 200px;
+}
+
+.svg-container {
+    flex-basis: 50%;
+}
+
+
+.header {
+    text-align: justify;
+}
+
+.header-container {
+    min-width: 300px;
+    width: 75%;
+    margin: auto; 
+    padding-bottom: 20px;
 }
