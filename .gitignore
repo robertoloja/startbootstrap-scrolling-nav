@@ -3,3 +3,4 @@ functions.js
 style.css
 nstyle.css
 server.js
+lighttpd.conf
