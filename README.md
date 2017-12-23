@@ -4,3 +4,6 @@ This provides a reverse proxy to a [Node.js app](https://github.com/robertoloja/
 and a [Django app](http://github.com/robertoloja/bookInventory). As the Node
 app is running outside of its intended context (a beehive), the data is mocked,
 and only the d3.js vizualization is served.
+
+The contents of this repository correspond to the `static/` directory of the
+website.
